@@ -17,6 +17,9 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class SpringFeignApplication {
+	/**
+	 * 这是一个接口客户端
+	 */
 	@Autowired
 	MyFeignClient myFeignClient;
 	private static final Logger log = LoggerFactory.getLogger(SpringFeignApplication.class);
